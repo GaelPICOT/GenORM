@@ -148,7 +148,7 @@ def package2OCL(package):
     result = ""
     for element in package.getOwnedElement():
         if isinstance(element, Class):
-            if isAssociationClass(element)
+            if isAssociationClass(element):
                 result += umlAssociationClass2OCL(element)
             else:
                 result += umlClass2OCL(element)
@@ -156,7 +156,10 @@ def package2OCL(package):
             result += package2OCL(element)
         elif isinstance(element, Enumeration):
             result += umlEnumeration2OCL(element)
+    for association in associationsInPackage(package):
+        result += umlAssociation2OCL(association)
     # TODO : invariant
+    return result
 
 
 
