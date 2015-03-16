@@ -113,24 +113,29 @@ def umlEnumeration2OCL(enumeration):
     """
     Generate USE OCL code for the enumeration
     """
+    result = "enum " + enumeration.getName() + " "
+    values = [value.getName() for value in enumeration.getValue()]
+    result += ', '.join(values) + "\n\n"
+    return result
 
 def umlClass2OCL(class_):
-    pass
+    return "class_" + "\n\n"
 
 def umlBasicType2OCL(basicType):
     """
     Generate USE OCL basic type. Note that
     type conversions are required.
     """
+    return "basicType" + "\n\n"
 
 def umlAssociation2OCL(asociation):
-    pass
+    return "asociation" + "\n\n"
 
 def umlInvariant2OCL(invatriant):
-    pass
+    return "invatriant" + "\n\n"
 
 def umlAssociationClass2OCL(asociationClass):
-    pass
+    return "asociationClass" + "\n\n"
     
 # etc.
 
