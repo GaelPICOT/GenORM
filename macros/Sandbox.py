@@ -1,7 +1,7 @@
-print "Hello Fama!"
+print "Hello!"
 
 # This is a comment
-print '\n'*3
+print '\n'*2
 print '-'*80  # isn't that nice?
 print "I'm a macro. I'm in the file sandbox.py located in the directory"
 print '"macros" of the current workspace. You can edit me with a'
@@ -9,6 +9,24 @@ print "regular text editor (e.g. Notepad++ on windows)."
 print "I will be happy if you change me and execute me again (and again...)."
 print
 print "By the way you have selected the following elements in modelio:"
+
+
+class Test1(object):
+	def __init__(self, x):
+		def t2(i):
+			print i*2
+		self.__dict__['t2']=self.t
+		self.__dict__['t3']=50
+		self.__dict__['fainant']=50
+		for (_, j) in self.__dict__.items():
+			print j
+		self.t=t2
+		self.t2(x)
+
+	def t(self, i):
+		print i
+
+t = Test1('aaa')
 
 # This is a function with two parameters, one is optional
 def indent(nb, character=' '):

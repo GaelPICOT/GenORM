@@ -5,9 +5,9 @@
 =========================================================
 
 FILL THIS SECTION AS SHOWN BELOW AND LINES STARTING WITH ###
-@author Xuan Shong TI WONG SHI <xuan.ti@mydomain.com>
-@author Maria Shohie CEZAR LOPEZ DE ANDERA <maria.cezar@ujf-grenoble.fr>
-@group  G99
+@author Joris ROSIER <rosier.joris@hotmail.fr>
+@author Gael PICOT <gael.picot@free.fr>
+@group  G236
 
 Current state of the generator
 ----------------------------------
@@ -49,7 +49,10 @@ def isAssociationClass(element):
     has a associated association. (see the Modelio metamodel
     for details)
     """
-    # TODO
+    if isinstance(element, Class):
+        return element.getLinkToAssociation() is not None
+    else:
+        return False
     
  
 #---------------------------------------------------------
