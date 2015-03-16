@@ -114,11 +114,23 @@ def umlEnumeration2OCL(enumeration):
     Generate USE OCL code for the enumeration
     """
 
+def umlClass2OCL(class_):
+    pass
+
 def umlBasicType2OCL(basicType):
     """
     Generate USE OCL basic type. Note that
     type conversions are required.
     """
+
+def umlAssociation2OCL(asociation):
+    pass
+
+def umlInvariant2OCL(invatriant):
+    pass
+
+def umlAssociationClass2OCL(asociationClass):
+    pass
     
 # etc.
 
