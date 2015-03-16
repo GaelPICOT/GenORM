@@ -145,7 +145,18 @@ def package2OCL(package):
     might exist is not reflected in the USE OCL specification
     as USE is not supporting the concept of package.
     """
-
+    result = ""
+    for element in package.getOwnedElement():
+        if isinstance(element, Class):
+            if isAssociationClass(element)
+                result += umlAssociationClass2OCL(element)
+            else:
+                result += umlClass2OCL(element)
+        elif isinstance(element, Package):
+            result += package2OCL(element)
+        elif isinstance(element, Enumeration):
+            result += umlEnumeration2OCL(element)
+    # TODO : invariant
 
 
 
