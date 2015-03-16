@@ -71,7 +71,13 @@ def associationsInPackage(package):
     arrive to a class which is recursively contained in
     a package.
     """
-    
+    list_association = []
+    for element in package.getOwnedElement():
+        if isinstance(element, Class):
+            list_association.extend(element.getOwnedEnd())
+        elif isinstance(element, Package):
+            list_association.extend(associationsInPackage(element))
+    return list_association
 
     
 #---------------------------------------------------------
