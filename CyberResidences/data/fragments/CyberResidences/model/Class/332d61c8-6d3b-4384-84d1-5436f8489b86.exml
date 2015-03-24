@@ -4,6 +4,7 @@
     <ID name="Room" mc="Class" uid="332d61c8-6d3b-4384-84d1-5436f8489b86"/>
     <COMPID name="deriveFloor" mc="Signal" uid="3edc23a3-47b2-4937-9dee-e4088374aded"/>
     <COMPID name="floorBetweenMinAndMax" mc="Signal" uid="e2254037-3d15-4d6f-a3ae-8e803ab9cc06"/>
+    <EXTID name="Inheritance" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
     <EXTID name="Residence" mc="Class" uid="97587931-2125-4165-b797-b3d6cb2c2a92"/>
     <FOREIGNID name="boolean" mc="DataType" uid="00000004-0000-0005-0000-000000000000"/>
     <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
@@ -161,6 +162,38 @@
       <COMP relation="OwnedElement">
         <COMPID name="floorBetweenMinAndMax" mc="Signal" uid="e2254037-3d15-4d6f-a3ae-8e803ab9cc06"/>
         <COMPID name="deriveFloor" mc="Signal" uid="3edc23a3-47b2-4937-9dee-e4088374aded"/>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="Inheritance" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+      </LINK>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="TaggedValue" uid="d6c8d512-cc55-462a-aa4e-495d3c0cab54"/>
+          <PID name="Room" mc="Class" uid="332d61c8-6d3b-4384-84d1-5436f8489b86"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="TagParameter" uid="30329dc4-481b-4fb1-a083-29f45e99a7ee"/>
+                <PID name="Room" mc="Class" uid="332d61c8-6d3b-4384-84d1-5436f8489b86"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[TABLE_PER_CLASS]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <REFOBJ>
+                <ID name="Strategy" mc="TagType" uid="cfa9e687-1b81-4ca6-a3b6-96c23ce9388d"/>
+                <PID name="Inheritance" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

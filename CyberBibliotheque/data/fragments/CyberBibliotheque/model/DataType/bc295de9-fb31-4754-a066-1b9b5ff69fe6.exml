@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SMALLINT" version="3">
+  <DEPS>
+    <ID name="SMALLINT" mc="DataType" uid="bc295de9-fb31-4754-a066-1b9b5ff69fe6"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="SMALLINT" mc="DataType" uid="bc295de9-fb31-4754-a066-1b9b5ff69fe6"/>
+    <PID name="integer" mc="Package" uid="faa27235-309d-47f5-acb5-377e0dfc7dbd"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SMALLINT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

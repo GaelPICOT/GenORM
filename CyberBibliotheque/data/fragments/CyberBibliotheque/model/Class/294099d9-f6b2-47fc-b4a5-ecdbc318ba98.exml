@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Book" version="3">
+  <DEPS>
+    <ID name="Book" mc="Class" uid="294099d9-f6b2-47fc-b4a5-ecdbc318ba98"/>
+    <EXTID name="FKC" mc="Stereotype" uid="90aa534a-0eb1-42e1-8aa7-0702f9f4d3be"/>
+    <EXTID name="PK" mc="Stereotype" uid="15333e0a-b64d-485c-8ab5-8f95060ef356"/>
+    <EXTID name="Publisher" mc="Class" uid="33e9040c-84fd-4f11-afec-164e50544231"/>
+    <EXTID name="T" mc="Stereotype" uid="d0ade3c6-1fb0-46a7-9c5e-fa0104905eee"/>
+    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+    <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Book" mc="Class" uid="294099d9-f6b2-47fc-b4a5-ecdbc318ba98"/>
+    <PID name="LibraryRelationalModel" mc="Package" uid="2be468b4-c776-4416-a69c-28cb856ccf94"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Book]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="isbn" mc="Attribute" uid="20d57eb6-fdfd-45b8-91e1-da02a4774dd3"/>
+          <PID name="Book" mc="Class" uid="294099d9-f6b2-47fc-b4a5-ecdbc318ba98"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"><![CDATA[BIGINT(19)]]></ATT>
+            <ATT name="Value"><![CDATA[0]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[isbn]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <ID name="PK" mc="Stereotype" uid="15333e0a-b64d-485c-8ab5-8f95060ef356"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="title" mc="Attribute" uid="1a691aa7-3b25-4053-8a9e-fb7942c7dd4e"/>
+          <PID name="Book" mc="Class" uid="294099d9-f6b2-47fc-b4a5-ecdbc318ba98"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"><![CDATA[VARCHAR(128)]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[title]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="publisherId" mc="Attribute" uid="d010e566-dd02-4bb6-8e2e-9e5b5c88eb17"/>
+          <PID name="Book" mc="Class" uid="294099d9-f6b2-47fc-b4a5-ecdbc318ba98"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"><![CDATA[INT(10)]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">true</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">true</ATT>
+            <ATT name="Name"><![CDATA[publisherId]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="" mc="Dependency" uid="efdb73fe-7992-48a1-b06b-acd0cfa7a331"/>
+                <PID name="Book" mc="Class" uid="294099d9-f6b2-47fc-b4a5-ecdbc318ba98"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="publisherId" mc="Attribute" uid="4bedac58-f8c3-4ae1-938c-853511d8023d"/>
+                      <PID name="Publisher" mc="Class" uid="33e9040c-84fd-4f11-afec-164e50544231"/>
+                    </REFOBJ>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <ID name="FKC" mc="Stereotype" uid="90aa534a-0eb1-42e1-8aa7-0702f9f4d3be"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="T" mc="Stereotype" uid="d0ade3c6-1fb0-46a7-9c5e-fa0104905eee"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

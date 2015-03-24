@@ -1,0 +1,93 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BorrowedBook" version="3">
+  <DEPS>
+    <ID name="BorrowedBook" mc="Class" uid="2eb9e9ef-1b18-488c-bb3b-88074d8e93d4"/>
+    <EXTID name="Book" mc="Class" uid="412129d0-9465-45d6-b6f0-c097048a944a"/>
+    <EXTID name="Borrower" mc="Class" uid="ad675b1d-0bef-4353-ab21-c5f25c467d9c"/>
+    <EXTID name="LibraryBranch" mc="Class" uid="8e9440d8-a01b-40cc-941f-118ea4145be6"/>
+    <FOREIGNID name="date" mc="DataType" uid="00000004-0000-0014-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="BorrowedBook" mc="Class" uid="2eb9e9ef-1b18-488c-bb3b-88074d8e93d4"/>
+    <PID name="Library" mc="Package" uid="7b7a313a-b17c-4622-9b6d-fd583df22ac3"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BorrowedBook]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="borrowDate" mc="Attribute" uid="54b60b6d-509a-4eb2-90a3-edbde9586edd"/>
+          <PID name="BorrowedBook" mc="Class" uid="2eb9e9ef-1b18-488c-bb3b-88074d8e93d4"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[borrowDate]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="date" mc="DataType" uid="00000004-0000-0014-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="dueDate" mc="Attribute" uid="4ccf77cd-0843-4ad5-86bd-dec4bb96b754"/>
+          <PID name="BorrowedBook" mc="Class" uid="2eb9e9ef-1b18-488c-bb3b-88074d8e93d4"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[dueDate]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="date" mc="DataType" uid="00000004-0000-0014-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <REFOBJ>
+          <ID name="" mc="AssociationEnd" uid="d232420c-412a-4421-8af7-56785590ea98"/>
+          <PID name="Borrower" mc="Class" uid="ad675b1d-0bef-4353-ab21-c5f25c467d9c"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="AssociationEnd" uid="06f22762-8c0b-4d2e-800e-cc6eed50597b"/>
+          <PID name="Book" mc="Class" uid="412129d0-9465-45d6-b6f0-c097048a944a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="AssociationEnd" uid="7699bb81-fda1-46e9-be57-938ae1f4a9c1"/>
+          <PID name="LibraryBranch" mc="Class" uid="8e9440d8-a01b-40cc-941f-118ea4145be6"/>
+        </REFOBJ>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

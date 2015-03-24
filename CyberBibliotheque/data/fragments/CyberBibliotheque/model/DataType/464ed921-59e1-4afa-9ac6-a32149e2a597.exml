@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="FLOAT" version="3">
+  <DEPS>
+    <ID name="FLOAT" mc="DataType" uid="464ed921-59e1-4afa-9ac6-a32149e2a597"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="FLOAT" mc="DataType" uid="464ed921-59e1-4afa-9ac6-a32149e2a597"/>
+    <PID name="float" mc="Package" uid="830908d4-9578-457c-b3f1-511c405fb114"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[FLOAT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

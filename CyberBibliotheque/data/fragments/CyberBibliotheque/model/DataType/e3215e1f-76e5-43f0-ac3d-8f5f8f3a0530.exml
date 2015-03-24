@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DOUBLE" version="3">
+  <DEPS>
+    <ID name="DOUBLE" mc="DataType" uid="e3215e1f-76e5-43f0-ac3d-8f5f8f3a0530"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DOUBLE" mc="DataType" uid="e3215e1f-76e5-43f0-ac3d-8f5f8f3a0530"/>
+    <PID name="float" mc="Package" uid="830908d4-9578-457c-b3f1-511c405fb114"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DOUBLE]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

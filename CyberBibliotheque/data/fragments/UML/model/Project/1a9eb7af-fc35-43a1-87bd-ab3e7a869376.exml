@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="_model" version="2">
+  <DEPS>
+    <ID name="model" mc="Project" uid="1a9eb7af-fc35-43a1-87bd-ab3e7a869376"/>
+    <COMPID name="model" mc="DiagramSet" uid="5983ba6d-e5ff-4c35-8b2a-f456f3126c3b"/>
+    <COMPID name="model" mc="Package" uid="f0139fdd-eecd-417f-bd4f-6119d40f2283"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="model" mc="Project" uid="1a9eb7af-fc35-43a1-87bd-ab3e7a869376"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext" value="" type="String"></ATT>
+      <ATT name="ProjectDescr" value="" type="String"></ATT>
+      <ATT name="Name" value="" type="String"><![CDATA[model]]></ATT>
+      <ATT name="modifDate" value="1354287993195" type="Long"></ATT>
+      <ATT name="status" value="35747352241176639" type="SmStatus"></ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="model" mc="Package" uid="f0139fdd-eecd-417f-bd4f-6119d40f2283"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="model" mc="DiagramSet" uid="5983ba6d-e5ff-4c35-8b2a-f456f3126c3b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CyberBibliotheque" version="3">
+  <DEPS>
+    <ID name="CyberBibliotheque" mc="Project" uid="78958148-b19a-495b-870c-2ab2b7252318"/>
+    <COMPID name="CyberBibliotheque" mc="Package" uid="06e6a7ef-7ff0-4cb8-bd4b-0276ebc1d5af"/>
+    <COMPID name="CyberBibliotheque" mc="DiagramSet" uid="6b677d8f-3be6-4c98-a0dd-6f965eb92e27"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CyberBibliotheque" mc="Project" uid="78958148-b19a-495b-870c-2ab2b7252318"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[CyberBibliotheque]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="CyberBibliotheque" mc="DiagramSet" uid="6b677d8f-3be6-4c98-a0dd-6f965eb92e27"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="CyberBibliotheque" mc="Package" uid="06e6a7ef-7ff0-4cb8-bd4b-0276ebc1d5af"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

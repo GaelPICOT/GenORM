@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SQLLibrary" version="3">
+  <DEPS>
+    <ID name="SQLLibrary" mc="Package" uid="d0608c69-37e3-460f-9b95-ed3fc856e0a5"/>
+    <COMPID name="byte" mc="Package" uid="01386301-6986-4c0d-b090-f7bd307f1b6c"/>
+    <COMPID name="date" mc="Package" uid="b505652a-02f8-45cb-8c4d-26ac63851463"/>
+    <COMPID name="float" mc="Package" uid="830908d4-9578-457c-b3f1-511c405fb114"/>
+    <COMPID name="integer" mc="Package" uid="faa27235-309d-47f5-acb5-377e0dfc7dbd"/>
+    <COMPID name="string" mc="Package" uid="d1d5d50c-3733-4ecc-87b5-8845ffdc8f92"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="SQLLibrary" mc="Package" uid="d0608c69-37e3-460f-9b95-ed3fc856e0a5"/>
+    <PID name="CyberBibliotheque" mc="Package" uid="06e6a7ef-7ff0-4cb8-bd4b-0276ebc1d5af"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SQLLibrary]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="string" mc="Package" uid="d1d5d50c-3733-4ecc-87b5-8845ffdc8f92"/>
+        <COMPID name="date" mc="Package" uid="b505652a-02f8-45cb-8c4d-26ac63851463"/>
+        <COMPID name="integer" mc="Package" uid="faa27235-309d-47f5-acb5-377e0dfc7dbd"/>
+        <COMPID name="float" mc="Package" uid="830908d4-9578-457c-b3f1-511c405fb114"/>
+        <COMPID name="byte" mc="Package" uid="01386301-6986-4c0d-b090-f7bd307f1b6c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MEDIUMINT" version="3">
+  <DEPS>
+    <ID name="MEDIUMINT" mc="DataType" uid="26a2e203-ae1f-475f-ad0c-223666d347d8"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="MEDIUMINT" mc="DataType" uid="26a2e203-ae1f-475f-ad0c-223666d347d8"/>
+    <PID name="integer" mc="Package" uid="faa27235-309d-47f5-acb5-377e0dfc7dbd"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MEDIUMINT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

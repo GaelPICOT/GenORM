@@ -2,6 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Person" version="3">
   <DEPS>
     <ID name="Person" mc="Class" uid="408f94a6-6353-4edb-b176-6239848498eb"/>
+    <EXTID name="Inheritance" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
     <EXTID name="Rents" mc="Package" uid="ea8a3d44-2340-4326-a8e5-e8126679f267"/>
     <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
     <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
@@ -101,6 +102,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <ID name="Inheritance" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+      </LINK>
       <COMP relation="DependsOnDependency">
         <OBJECT>
           <ID name="" mc="Dependency" uid="007cf64b-a775-453c-9225-f548714de5f3"/>
@@ -134,6 +138,35 @@
               <REFOBJ>
                 <ID name="Gender" mc="Enumeration" uid="b4419489-0f18-4adb-b576-4d66b65b76d9"/>
                 <PID name="Rents" mc="Package" uid="ea8a3d44-2340-4326-a8e5-e8126679f267"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Tag">
+        <OBJECT>
+          <ID name="" mc="TaggedValue" uid="e5e8224e-27d9-4329-86eb-66bbcb0d3d94"/>
+          <PID name="Person" mc="Class" uid="408f94a6-6353-4edb-b176-6239848498eb"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Actual">
+              <OBJECT>
+                <ID name="" mc="TagParameter" uid="1b65cc7a-a2d9-4a59-a7c8-4df0380ff072"/>
+                <PID name="Person" mc="Class" uid="408f94a6-6353-4edb-b176-6239848498eb"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[SINGLE_TABLE]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Definition">
+              <REFOBJ>
+                <ID name="Strategy" mc="TagType" uid="cfa9e687-1b81-4ca6-a3b6-96c23ce9388d"/>
+                <PID name="Inheritance" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>

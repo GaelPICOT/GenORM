@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="float" version="3">
+  <DEPS>
+    <ID name="float" mc="Package" uid="830908d4-9578-457c-b3f1-511c405fb114"/>
+    <COMPID name="DECIMAL" mc="DataType" uid="0e2ddd49-c35d-4b11-88d4-51edeaa03443"/>
+    <COMPID name="DOUBLE" mc="DataType" uid="e3215e1f-76e5-43f0-ac3d-8f5f8f3a0530"/>
+    <COMPID name="FLOAT" mc="DataType" uid="464ed921-59e1-4afa-9ac6-a32149e2a597"/>
+    <COMPID name="NUMERIC" mc="DataType" uid="d2cbf311-6b60-46dc-a9ac-f726a5159fd4"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="float" mc="Package" uid="830908d4-9578-457c-b3f1-511c405fb114"/>
+    <PID name="SQLLibrary" mc="Package" uid="d0608c69-37e3-460f-9b95-ed3fc856e0a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[float]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="NUMERIC" mc="DataType" uid="d2cbf311-6b60-46dc-a9ac-f726a5159fd4"/>
+        <COMPID name="DECIMAL" mc="DataType" uid="0e2ddd49-c35d-4b11-88d4-51edeaa03443"/>
+        <COMPID name="FLOAT" mc="DataType" uid="464ed921-59e1-4afa-9ac6-a32149e2a597"/>
+        <COMPID name="DOUBLE" mc="DataType" uid="e3215e1f-76e5-43f0-ac3d-8f5f8f3a0530"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

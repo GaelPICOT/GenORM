@@ -27,3 +27,17 @@ Observations
 ------------
 Additional observations could go there
 """
+import copy
+
+
+def CopyPackage(package):
+    if isinstance(package, Package):
+        s = IModuleSession.getSession()
+        new_package = 0
+        return new_package
+    else:
+        raise TypeError('package is not a Package')
+    
+
+pack = CopyPackage(selectedElements[0])
+pack.setName(pack.getName() + '_simplified')

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="_model" version="2">
+  <DEPS>
+    <ID name="model" mc="AnalystProject" uid="2b7e27ee-5b41-4a22-872a-eb31947c1136"/>
+    <COMPID name="model" mc="PropertyContainer" uid="86831192-4b84-4af2-82fc-d35440c287f1"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="model" mc="AnalystProject" uid="2b7e27ee-5b41-4a22-872a-eb31947c1136"/>
+    <PID name="model" mc="Project" uid="1a9eb7af-fc35-43a1-87bd-ab3e7a869376"/>
+    <ATTRIBUTES>
+      <ATT name="Name" value="" type="String"><![CDATA[model]]></ATT>
+      <ATT name="modifDate" value="1354287993195" type="Long"></ATT>
+      <ATT name="status" value="35747352241176639" type="SmStatus"></ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="model" mc="PropertyContainer" uid="86831192-4b84-4af2-82fc-d35440c287f1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

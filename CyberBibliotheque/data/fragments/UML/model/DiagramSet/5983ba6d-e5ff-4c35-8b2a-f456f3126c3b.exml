@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="_model" version="2">
+  <DEPS>
+    <ID name="model" mc="DiagramSet" uid="5983ba6d-e5ff-4c35-8b2a-f456f3126c3b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="model" mc="DiagramSet" uid="5983ba6d-e5ff-4c35-8b2a-f456f3126c3b"/>
+    <PID name="model" mc="Project" uid="1a9eb7af-fc35-43a1-87bd-ab3e7a869376"/>
+    <ATTRIBUTES>
+      <ATT name="Name" value="" type="String"><![CDATA[model]]></ATT>
+      <ATT name="modifDate" value="1354287993195" type="Long"></ATT>
+      <ATT name="status" value="35747352241176639" type="SmStatus"></ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Sub"></COMP>
+      <COMP relation="ReferencedDiagram"></COMP>
+      <COMP relation="ConstraintDefinition"></COMP>
+      <COMP relation="DependsOnDependency"></COMP>
+      <COMP relation="Product"></COMP>
+      <COMP relation="LocalDescriptor"></COMP>
+      <COMP relation="LocalTag"></COMP>
+      <COMP relation="Descriptor"></COMP>
+      <LINK relation="Extension"/>
+      <COMP relation="Tag"></COMP>
+      <COMP relation="Document"></COMP>
+      <COMP relation="Properties"></COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

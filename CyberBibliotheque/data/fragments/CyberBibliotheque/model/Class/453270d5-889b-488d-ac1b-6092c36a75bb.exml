@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BookLocation" version="3">
+  <DEPS>
+    <ID name="BookLocation" mc="Class" uid="453270d5-889b-488d-ac1b-6092c36a75bb"/>
+    <EXTID name="Book" mc="Class" uid="294099d9-f6b2-47fc-b4a5-ecdbc318ba98"/>
+    <EXTID name="FK" mc="Stereotype" uid="4df5784e-78c0-422c-9346-016cdd58971d"/>
+    <EXTID name="FKC" mc="Stereotype" uid="90aa534a-0eb1-42e1-8aa7-0702f9f4d3be"/>
+    <EXTID name="LibraryBranch" mc="Class" uid="765f4b22-03a4-438d-ad29-78f11a7bc120"/>
+    <EXTID name="PK" mc="Stereotype" uid="15333e0a-b64d-485c-8ab5-8f95060ef356"/>
+    <EXTID name="T" mc="Stereotype" uid="d0ade3c6-1fb0-46a7-9c5e-fa0104905eee"/>
+    <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+    <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="BookLocation" mc="Class" uid="453270d5-889b-488d-ac1b-6092c36a75bb"/>
+    <PID name="LibraryRelationalModel" mc="Package" uid="2be468b4-c776-4416-a69c-28cb856ccf94"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BookLocation]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedAttribute">
+        <OBJECT>
+          <ID name="numCopies" mc="Attribute" uid="960ce4db-72bd-4c4e-bbd2-8396d15cf53e"/>
+          <PID name="BookLocation" mc="Class" uid="453270d5-889b-488d-ac1b-6092c36a75bb"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"><![CDATA[INT(10)]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[numCopies]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="isbn" mc="Attribute" uid="f0c15435-76d6-4734-bf0c-027c98028497"/>
+          <PID name="BookLocation" mc="Class" uid="453270d5-889b-488d-ac1b-6092c36a75bb"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"><![CDATA[BIGINT(19)]]></ATT>
+            <ATT name="Value"><![CDATA[0]]></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">true</ATT>
+            <ATT name="IsAbstract">true</ATT>
+            <ATT name="Name"><![CDATA[isbn]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="integer" mc="DataType" uid="00000004-0000-0009-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <ID name="FK" mc="Stereotype" uid="4df5784e-78c0-422c-9346-016cdd58971d"/>
+              <ID name="PK" mc="Stereotype" uid="15333e0a-b64d-485c-8ab5-8f95060ef356"/>
+            </LINK>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="" mc="Dependency" uid="d60630d6-b1d7-4d37-8a70-c970e0508a35"/>
+                <PID name="BookLocation" mc="Class" uid="453270d5-889b-488d-ac1b-6092c36a75bb"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="isbn" mc="Attribute" uid="20d57eb6-fdfd-45b8-91e1-da02a4774dd3"/>
+                      <PID name="Book" mc="Class" uid="294099d9-f6b2-47fc-b4a5-ecdbc318ba98"/>
+                    </REFOBJ>
+                  </LINK>
+                  <LINK relation="Extension">
+                    <ID name="FKC" mc="Stereotype" uid="90aa534a-0eb1-42e1-8aa7-0702f9f4d3be"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="branchId" mc="Attribute" uid="366cfe95-f77e-46cd-8804-028fa9cc0c39"/>
+          <PID name="BookLocation" mc="Class" uid="453270d5-889b-488d-ac1b-6092c36a75bb"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"><![CDATA[INT(10)]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">true</ATT>
+            <ATT name="IsAbstract">true</ATT>
+            <ATT name="Name"><![CDATA[branchId]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="string" mc="DataType" uid="00000004-0000-000d-0000-000000000000"/>
+            </LINK>
+            <LINK relation="Extension">
+              <ID name="FK" mc="Stereotype" uid="4df5784e-78c0-422c-9346-016cdd58971d"/>
+              <ID name="PK" mc="Stereotype" uid="15333e0a-b64d-485c-8ab5-8f95060ef356"/>
+            </LINK>
+            <COMP relation="DependsOnDependency">
+              <OBJECT>
+                <ID name="" mc="Dependency" uid="ab490955-d387-4f8a-8568-bc519f031ed8"/>
+                <PID name="BookLocation" mc="Class" uid="453270d5-889b-488d-ac1b-6092c36a75bb"/>
+                <ATTRIBUTES>
+                  <ATT name="DependsOnId"></ATT>
+                  <ATT name="DependsOnName"></ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="DependsOn">
+                    <REFOBJ>
+                      <ID name="address" mc="Attribute" uid="ffc74b66-d01c-4d47-aebf-753dd8eb709c"/>
+                      <PID name="LibraryBranch" mc="Class" uid="765f4b22-03a4-438d-ad29-78f11a7bc120"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <LINK relation="Extension">
+        <ID name="T" mc="Stereotype" uid="d0ade3c6-1fb0-46a7-9c5e-fa0104905eee"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

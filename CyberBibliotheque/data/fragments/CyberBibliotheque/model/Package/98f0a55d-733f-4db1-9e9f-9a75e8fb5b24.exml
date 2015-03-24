@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LibraryConceptualModel" version="3">
+  <DEPS>
+    <ID name="LibraryConceptualModel" mc="Package" uid="98f0a55d-733f-4db1-9e9f-9a75e8fb5b24"/>
+    <COMPID name="Address" mc="Class" uid="0e7c8ddb-1f8d-4d14-b951-5bae18cf8350"/>
+    <COMPID name="Author" mc="Class" uid="6b01d659-9979-4904-bc7e-291bc473cc35"/>
+    <COMPID name="Book" mc="Class" uid="5e29fa26-317f-4988-9566-2e430f526da8"/>
+    <COMPID name="BookAuthor" mc="Class" uid="269b504c-e2f4-4b54-b74c-0361e61905a5"/>
+    <COMPID name="BookLocation" mc="Class" uid="ee204e62-c90e-4387-a572-02f17e51d144"/>
+    <COMPID name="BorrowedBook" mc="Class" uid="e878e4d0-ad1b-4ac8-b605-5e1ba2c1517d"/>
+    <COMPID name="Borrower" mc="Class" uid="e932c451-21f7-4a91-a239-8a3e9435745e"/>
+    <COMPID name="LibraryBranch" mc="Class" uid="f74100b1-4fa4-49c3-95e1-4d4b92e0dab0"/>
+    <COMPID name="Library_FullView" mc="ClassDiagram" uid="01a8c347-b96b-4c51-bdc9-9118fa29f6df"/>
+    <COMPID name="Publisher" mc="Class" uid="3f296009-abbb-4ff3-b5d8-d5cfd0907842"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="LibraryConceptualModel" mc="Package" uid="98f0a55d-733f-4db1-9e9f-9a75e8fb5b24"/>
+    <PID name="CyberBibliotheque" mc="Package" uid="06e6a7ef-7ff0-4cb8-bd4b-0276ebc1d5af"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[LibraryConceptualModel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Address" mc="Class" uid="0e7c8ddb-1f8d-4d14-b951-5bae18cf8350"/>
+        <COMPID name="Publisher" mc="Class" uid="3f296009-abbb-4ff3-b5d8-d5cfd0907842"/>
+        <COMPID name="Borrower" mc="Class" uid="e932c451-21f7-4a91-a239-8a3e9435745e"/>
+        <COMPID name="Book" mc="Class" uid="5e29fa26-317f-4988-9566-2e430f526da8"/>
+        <COMPID name="LibraryBranch" mc="Class" uid="f74100b1-4fa4-49c3-95e1-4d4b92e0dab0"/>
+        <COMPID name="BookAuthor" mc="Class" uid="269b504c-e2f4-4b54-b74c-0361e61905a5"/>
+        <COMPID name="BookLocation" mc="Class" uid="ee204e62-c90e-4387-a572-02f17e51d144"/>
+        <COMPID name="BorrowedBook" mc="Class" uid="e878e4d0-ad1b-4ac8-b605-5e1ba2c1517d"/>
+        <COMPID name="Author" mc="Class" uid="6b01d659-9979-4904-bc7e-291bc473cc35"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Library_FullView" mc="ClassDiagram" uid="01a8c347-b96b-4c51-bdc9-9118fa29f6df"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

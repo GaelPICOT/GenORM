@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="_model" version="2">
+  <DEPS>
+    <ID name="model" mc="PropertyContainer" uid="86831192-4b84-4af2-82fc-d35440c287f1"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="model" mc="PropertyContainer" uid="86831192-4b84-4af2-82fc-d35440c287f1"/>
+    <PID name="model" mc="AnalystProject" uid="2b7e27ee-5b41-4a22-872a-eb31947c1136"/>
+    <ATTRIBUTES>
+      <ATT name="Name" value="" type="String"><![CDATA[model]]></ATT>
+      <ATT name="modifDate" value="1354287993195" type="Long"></ATT>
+      <ATT name="status" value="35747352241176639" type="SmStatus"></ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTable"></COMP>
+      <COMP relation="DefinedType"></COMP>
+      <COMP relation="ConstraintDefinition"></COMP>
+      <COMP relation="DependsOnDependency"></COMP>
+      <COMP relation="Product"></COMP>
+      <COMP relation="LocalDescriptor"></COMP>
+      <COMP relation="LocalTag"></COMP>
+      <COMP relation="Descriptor"></COMP>
+      <LINK relation="Extension"/>
+      <COMP relation="Tag"></COMP>
+      <COMP relation="Document"></COMP>
+      <COMP relation="Properties"></COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

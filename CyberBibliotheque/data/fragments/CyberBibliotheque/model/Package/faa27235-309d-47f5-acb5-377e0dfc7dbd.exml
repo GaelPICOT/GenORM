@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="integer" version="3">
+  <DEPS>
+    <ID name="integer" mc="Package" uid="faa27235-309d-47f5-acb5-377e0dfc7dbd"/>
+    <COMPID name="BIGINT" mc="DataType" uid="cd08f4da-a9dd-4b20-bf73-27386b1fa9c6"/>
+    <COMPID name="BIT" mc="DataType" uid="61d83742-86f9-45b0-a9d9-3c5e43a6c9f0"/>
+    <COMPID name="INT" mc="DataType" uid="c43c708e-edbe-44c9-80e8-7b1385dd02a3"/>
+    <COMPID name="MEDIUMINT" mc="DataType" uid="26a2e203-ae1f-475f-ad0c-223666d347d8"/>
+    <COMPID name="SMALLINT" mc="DataType" uid="bc295de9-fb31-4754-a066-1b9b5ff69fe6"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="integer" mc="Package" uid="faa27235-309d-47f5-acb5-377e0dfc7dbd"/>
+    <PID name="SQLLibrary" mc="Package" uid="d0608c69-37e3-460f-9b95-ed3fc856e0a5"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[integer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="INT" mc="DataType" uid="c43c708e-edbe-44c9-80e8-7b1385dd02a3"/>
+        <COMPID name="SMALLINT" mc="DataType" uid="bc295de9-fb31-4754-a066-1b9b5ff69fe6"/>
+        <COMPID name="MEDIUMINT" mc="DataType" uid="26a2e203-ae1f-475f-ad0c-223666d347d8"/>
+        <COMPID name="BIGINT" mc="DataType" uid="cd08f4da-a9dd-4b20-bf73-27386b1fa9c6"/>
+        <COMPID name="BIT" mc="DataType" uid="61d83742-86f9-45b0-a9d9-3c5e43a6c9f0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

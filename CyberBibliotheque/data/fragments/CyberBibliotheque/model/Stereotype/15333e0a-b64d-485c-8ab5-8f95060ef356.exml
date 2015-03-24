@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PK" version="3">
+  <DEPS>
+    <ID name="PK" mc="Stereotype" uid="15333e0a-b64d-485c-8ab5-8f95060ef356"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="PK" mc="Stereotype" uid="15333e0a-b64d-485c-8ab5-8f95060ef356"/>
+    <PID name="RelationalProfile" mc="Profile" uid="3469b090-cf44-4332-ab52-21de01a9d3fb"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[PK]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Attribute]]></ATT>
+      <ATT name="Name"><![CDATA[PK]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="group" mc="TagType" uid="eb843d3b-934c-4415-a49f-260d019d35ac"/>
+          <PID name="PK" mc="Stereotype" uid="15333e0a-b64d-485c-8ab5-8f95060ef356"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[group]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="order" mc="TagType" uid="027dcd99-8dd7-48b7-807c-4f2bef5d3879"/>
+          <PID name="PK" mc="Stereotype" uid="15333e0a-b64d-485c-8ab5-8f95060ef356"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[order]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

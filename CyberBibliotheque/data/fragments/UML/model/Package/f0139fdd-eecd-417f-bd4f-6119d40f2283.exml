@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UML" version="3">
+  <DEPS>
+    <ID name="UML" mc="Package" uid="f0139fdd-eecd-417f-bd4f-6119d40f2283"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UML" mc="Package" uid="f0139fdd-eecd-417f-bd4f-6119d40f2283"/>
+    <PID name="model" mc="Project" uid="1a9eb7af-fc35-43a1-87bd-ab3e7a869376"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UML]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

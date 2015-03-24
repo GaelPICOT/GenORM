@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CHAR" version="3">
+  <DEPS>
+    <ID name="CHAR" mc="DataType" uid="71f50fa1-bb33-4281-9e23-3443c5391c93"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CHAR" mc="DataType" uid="71f50fa1-bb33-4281-9e23-3443c5391c93"/>
+    <PID name="string" mc="Package" uid="d1d5d50c-3733-4ecc-87b5-8845ffdc8f92"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CHAR]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

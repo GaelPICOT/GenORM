@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BIGINT" version="3">
+  <DEPS>
+    <ID name="BIGINT" mc="DataType" uid="cd08f4da-a9dd-4b20-bf73-27386b1fa9c6"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="BIGINT" mc="DataType" uid="cd08f4da-a9dd-4b20-bf73-27386b1fa9c6"/>
+    <PID name="integer" mc="Package" uid="faa27235-309d-47f5-acb5-377e0dfc7dbd"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[BIGINT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

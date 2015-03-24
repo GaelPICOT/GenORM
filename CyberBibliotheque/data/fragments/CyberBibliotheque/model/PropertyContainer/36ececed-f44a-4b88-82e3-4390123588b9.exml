@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CyberBibliotheque" version="3">
+  <DEPS>
+    <ID name="CyberBibliotheque" mc="PropertyContainer" uid="36ececed-f44a-4b88-82e3-4390123588b9"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CyberBibliotheque" mc="PropertyContainer" uid="36ececed-f44a-4b88-82e3-4390123588b9"/>
+    <PID name="CyberBibliotheque" mc="AnalystProject" uid="7e10a50a-fe6a-4cb7-86ea-e9689cb19a5b"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[CyberBibliotheque]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
