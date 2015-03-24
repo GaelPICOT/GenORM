@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ORM" version="3">
+  <DEPS>
+    <ID name="ORM" mc="Profile" uid="63f498e3-a507-4c9a-b5d4-d14f67778120"/>
+    <COMPID name="InheritanceStrategy" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="ORM" mc="Profile" uid="63f498e3-a507-4c9a-b5d4-d14f67778120"/>
+    <PID name="LocalModule" mc="ModuleComponent" uid="0c0266e8-e110-4c7a-8024-d446e25c981e"/>
+    <ATTRIBUTES>
+      <ATT name="JCode"></ATT>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ORM]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="InheritanceStrategy" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

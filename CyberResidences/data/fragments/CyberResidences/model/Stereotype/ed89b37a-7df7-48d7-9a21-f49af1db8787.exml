@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="InheritanceStrategy" version="3">
+  <DEPS>
+    <ID name="InheritanceStrategy" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="InheritanceStrategy" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+    <PID name="ORM" mc="Profile" uid="63f498e3-a507-4c9a-b5d4-d14f67778120"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[InheritanceStrategy]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Class]]></ATT>
+      <ATT name="Name"><![CDATA[InheritanceStrategy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="SINGLE_TABLE" mc="TagType" uid="cfa9e687-1b81-4ca6-a3b6-96c23ce9388d"/>
+          <PID name="InheritanceStrategy" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[SINGLE_TABLE]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="JOINED" mc="TagType" uid="2d29707d-258e-4cf0-92fe-12f4c1eef5ba"/>
+          <PID name="InheritanceStrategy" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[JOINED]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TABLE_PER_CLASS" mc="TagType" uid="0e1c21a9-5fcd-456d-99b7-9125f5fdf51d"/>
+          <PID name="InheritanceStrategy" mc="Stereotype" uid="ed89b37a-7df7-48d7-9a21-f49af1db8787"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[TABLE_PER_CLASS]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
